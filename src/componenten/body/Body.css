@@ -1,0 +1,6 @@
+
+#bodyImageBox {
+    display: flex;
+    justify-content: flex-end;
+    margin: 80px 140px 0 0;
+}
