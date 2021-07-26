@@ -3,9 +3,11 @@ import './Links.css'
 
 function Links () {
     return (
-        <div className="infoBox">
-            <p>haloo</p>
-        </div>
+        // <div className="infoBox">
+        //     {/*<p>haloo</p>*/}
+        // </div>
+        <>
+        </>
     )
 }
 

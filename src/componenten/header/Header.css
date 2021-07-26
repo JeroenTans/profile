@@ -5,9 +5,8 @@
 
 #headerBox {
     width: 100%;
-    height: 250px;
+    height: 34vh;
     display: flex;
-    /*flex-direction: row-reverse;*/
 }
 
 #headerImage {
@@ -23,13 +22,4 @@
     position: absolute;
     top: 60px;
     right: 60px;
-}
-
-#droneImage {
-
-    position: absolute;
-    height: 75px;
-    width: 75px;
-    left: 100px;
-    top: 325px;
 }

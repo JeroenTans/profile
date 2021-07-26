@@ -1,6 +1,45 @@
 
 #bodyImageBox {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    border: red solid;
+    height: 66vh;
+}
+
+.droneBox {
+    border: solid blue;
+    height: 60px;
+    margin: 10px 0 0 30px;
+}
+
+.textBox {
+    border: greenyellow solid;
+    width: 60%;
+    overflow: auto;
+}
+
+.bodyBox {
+    border: purple solid;
     margin: 80px 140px 0 0;
+    height: 340px;
+}
+
+.buttons {
+    height: 35px;
+    width: 150px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: lightgray;
+}
+
+#buttonBox {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
 }
