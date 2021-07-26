@@ -1,25 +1,59 @@
 
+h3 {
+    color: white;
+}
+
+h4 {
+    color: hsl(0, 4%, 92%);
+}
+
+#infoBox {
+    display: flex;
+    justify-content: center;
+    min-height: 375px;
+    height: auto;
+    margin: 20px 40px 0 40px;
+    overflow: auto;
+    background-color: hsl(0, 4%, 92%);
+}
+
+#completeLeftBox {
+    width: 20%;
+    background-color: hsl(0, 4%, 63%);
+    color: lightgray;
+}
+
 #bodyImageBox {
     display: flex;
     justify-content: space-between;
-    border: red solid;
     height: 66vh;
 }
 
+#titleBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+#buttonBox {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
 .droneBox {
-    border: solid blue;
     height: 60px;
     margin: 10px 0 0 30px;
+    color: grey;
 }
 
 .textBox {
-    border: greenyellow solid;
     width: 60%;
     overflow: auto;
 }
 
 .bodyBox {
-    border: purple solid;
     margin: 80px 140px 0 0;
     height: 340px;
 }
@@ -27,19 +61,18 @@
 .buttons {
     height: 35px;
     width: 150px;
-    background-color: grey;
+    background-color: hsl(0, 4%, 63%);
     color: white;
     border: none;
-    border-radius: 3px;
     cursor: pointer;
 }
 
-.buttons:hover{
-    background-color: lightgray;
+.linkToWebs {
+    color: lightgray;
 }
 
-#buttonBox {
-    margin: 30px 0 0 0;
-    display: flex;
-    justify-content: space-around;
+.buttons:hover{
+    background-color: hsl(0, 4%, 73%)
 }
+
+

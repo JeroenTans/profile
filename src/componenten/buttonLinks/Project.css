@@ -1,0 +1,17 @@
+
+#projectImage {
+    height: 200px;
+    width: 400px;
+    margin: 0;
+    border: none;
+}
+
+.projectSmall {
+    cursor: pointer;
+    height: 200px;
+    width: 400px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

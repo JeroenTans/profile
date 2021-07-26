@@ -1,0 +1,12 @@
+
+.infoBoxComp {
+    /*border: lightgray solid;*/
+    margin: 15px;
+    min-height: 345px;
+    height: auto;
+    color: darkgrey;
+}
+
+.infoH3 {
+    color: darkgrey;
+}
